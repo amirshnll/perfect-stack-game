@@ -1,0 +1,8 @@
+{
+  "name": "perfect-stack-extension",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "check": "node --check src/game.js && node --check src/i18n.js && node --check src/storage.js && node --check src/browser-api.js"
+  }
+}

@@ -1,0 +1,34 @@
+import { loadSettings, save } from './storage.js';
+import { setLocale, t, languages } from './i18n.js';
+
+const canvas = document.querySelector('#game'), ctx = canvas.getContext('2d'), feedback = document.querySelector('#feedback');
+const $ = id => document.getElementById(id); let cfg, blocks = [], active, score = 0, height = 0, combo = 0, perfect = 0, running = false, paused = false, last = 0, particles = [];
+const metrics = { w: 400, h: 330, blockH: 19, baseY: 279, camera: 0 };
+function resize() {
+  const r = canvas.getBoundingClientRect(), d = devicePixelRatio || 1;
+  const nextBaseY = Math.max(metrics.blockH, r.height - metrics.blockH - 14);
+  const shiftY = nextBaseY - metrics.baseY;
+  canvas.width = r.width * d;
+  canvas.height = r.height * d;
+  ctx.setTransform(d, 0, 0, d, 0, 0);
+  metrics.w = r.width;
+  metrics.h = r.height;
+  metrics.baseY = nextBaseY;
+  if (shiftY) {
+    blocks.forEach(block => block.y += shiftY);
+    if (active) active.y += shiftY;
+    particles.forEach(particle => particle.y += shiftY);
+  }
+}
+function init() { score = height = combo = perfect = 0; particles = []; metrics.camera = 0; blocks = [{ x: metrics.w * .5 - 62, w: 124, y: metrics.baseY, color: '#7166ff' }]; active = { x: -126, w: 124, y: metrics.baseY - metrics.blockH, dir: 1, speed: 130, color: '#2ed1dd' }; running = true; paused = false; document.getElementById("pause").classList.remove("hidden"); document.getElementById("startOverlay").classList.add("hidden"); update(); }
+function update() { $('score').textContent = score; $('height').textContent = height; $('combo').textContent = combo; }
+function record(text) { feedback.textContent = text; feedback.classList.remove('show'); void feedback.offsetWidth; feedback.classList.add('show') }
+function beep(ok = true) { if (!cfg.sound) return; const A = globalThis.AudioContext || globalThis.webkitAudioContext; if (!A) return; const a = new A(), o = a.createOscillator(), g = a.createGain(); o.frequency.value = ok ? 480 + combo * 24 : 120; g.gain.setValueAtTime(.035, a.currentTime); g.gain.exponentialRampToValueAtTime(.001, a.currentTime + .09); o.connect(g).connect(a.destination); o.start(); o.stop(a.currentTime + .1) }
+function updatePauseButton() { const button = document.getElementById("pause"); button.textContent = paused ? t("resume") : t("pause"); } function togglePause() { if (!running && !paused) return; if (paused) { paused = false; running = true; last = performance.now(); } else { paused = true; running = false; record(t("paused")); } updatePauseButton(); } function drop() { if (paused) return; if (!running) { init(); return } const below = blocks.at(-1), left = Math.max(active.x, below.x), right = Math.min(active.x + active.w, below.x + below.w), overlap = right - left; if (overlap <= 0) { running = false; paused = false; document.getElementById("pause").classList.add("hidden"); record(t('miss')); beep(false); $('startOverlay').querySelector('strong').textContent = t('gameOver'); $('startOverlay').classList.remove('hidden'); return } const delta = Math.abs((active.x + active.w / 2) - (below.x + below.w / 2)), perfectHit = delta < 4; let label = t('good'); if (perfectHit) { label = t('perfect'); combo++; perfect++; active.x = below.x; active.w = Math.min(132, below.w + 3); score += 12 + combo * 2; particles = Array.from({ length: 10 }, () => ({ x: active.x + active.w / 2, y: active.y, vx: (Math.random() - .5) * 100, vy: -Math.random() * 90, life: 1, color: '#fff3a1' })); } else { active.x = left; active.w = overlap; combo = 0; perfect = 0; score += Math.round(overlap / 5); label = overlap / below.w > .82 ? t('great') : t('good') } height++; blocks.push({ ...active }); if (blocks.length > 16) blocks.shift(); metrics.camera = Math.max(0, (height - 8) * metrics.blockH); const nextDirection = height % 2 ? 1 : -1; active = { x: nextDirection > 0 ? -active.w : metrics.w, w: active.w, y: blocks.at(-1).y - metrics.blockH, dir: nextDirection, speed: 130 + height * 7, color: `hsl(${185 + height * 8},78%,${57 - height % 12}%)` }; record(label); beep(); update(); persist(); }
+async function persist() { const values = { bestScore: Math.max(cfg.bestScore, score), bestHeight: Math.max(cfg.bestHeight, height), bestPerfect: Math.max(cfg.bestPerfect, perfect) }; cfg = { ...cfg, ...values }; await save(values); records(); }
+function records() { $('bestScore').textContent = cfg.bestScore; $('bestHeight').textContent = cfg.bestHeight; $('bestPerfect').textContent = cfg.bestPerfect }
+function frame(now) { const dt = Math.min(.035, (now - last) / 1000 || 0); last = now; if (running) { active.x += active.dir * active.speed * dt; if ((active.dir > 0 && active.x > metrics.w) || (active.dir < 0 && active.x + active.w < 0)) active.dir *= -1 } particles.forEach(p => { p.x += p.vx * dt; p.y += p.vy * dt; p.vy += 250 * dt; p.life -= dt * 1.6 }); particles = particles.filter(p => p.life > 0); draw(); requestAnimationFrame(frame) }
+function draw() { ctx.clearRect(0, 0, metrics.w, metrics.h); const grd = ctx.createLinearGradient(0, 0, 0, metrics.h); grd.addColorStop(0, '#202b55'); grd.addColorStop(1, '#11162d'); ctx.fillStyle = grd; ctx.fillRect(0, 0, metrics.w, metrics.h); ctx.save(); ctx.translate(0, metrics.camera); for (const b of blocks) block(b); if (running) block(active); ctx.restore(); for (const p of particles) { ctx.globalAlpha = p.life; ctx.fillStyle = p.color; ctx.fillRect(p.x, p.y + metrics.camera, 3, 3) } ctx.globalAlpha = 1; ctx.fillStyle = '#ffffff20'; ctx.fillRect(0, metrics.baseY + metrics.blockH + metrics.camera, metrics.w, 1) }
+function block(b) { ctx.fillStyle = '#0004'; ctx.fillRect(b.x + 3, b.y + 3, b.w, metrics.blockH); ctx.fillStyle = b.color; ctx.fillRect(b.x, b.y, b.w, metrics.blockH); ctx.fillStyle = '#fff4'; ctx.fillRect(b.x, b.y, b.w, 2) }
+document.addEventListener('keydown', e => { if ((e.code === 'Space' || e.code === 'Enter') && !$('settings').open) { e.preventDefault(); drop() } }); canvas.addEventListener("pointerdown", drop); document.getElementById("pause").onclick = togglePause; $('restart').onclick = init; $('settingsButton').onclick = () => $('settings').showModal();
+async function boot() { cfg = await loadSettings(); await setLocale(cfg.language); for (const [code, name] of Object.entries(languages)) $('language').add(new Option(name, code, code === cfg.language, code === cfg.language)); $('sound').checked = cfg.sound; $('motion').checked = cfg.reducedMotion; records(); $('settings').addEventListener('close', async () => { cfg.language = $('language').value; cfg.sound = $('sound').checked; cfg.reducedMotion = $('motion').checked; await save({ language: cfg.language, sound: cfg.sound, reducedMotion: cfg.reducedMotion }); await setLocale(cfg.language); updatePauseButton() }); resize(); new ResizeObserver(resize).observe(canvas); requestAnimationFrame(frame) } boot();

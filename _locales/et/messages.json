@@ -1,0 +1,92 @@
+{
+  "appTag": {
+    "message": "TÄPSUSARCADE"
+  },
+  "title": {
+    "message": "Täiuslik torn"
+  },
+  "score": {
+    "message": "Punktid"
+  },
+  "height": {
+    "message": "Kõrgus"
+  },
+  "combo": {
+    "message": "Kombinatsioon"
+  },
+  "bestScore": {
+    "message": "Parim tulemus"
+  },
+  "highestTower": {
+    "message": "Kõrgeim torn"
+  },
+  "bestPerfectStreak": {
+    "message": "Parim täiuslik seeria"
+  },
+  "tapToStart": {
+    "message": "Alustamiseks klõpsa või vajuta tühikut"
+  },
+  "controlsHint": {
+    "message": "Klõps · Puudutus · Tühik · Enter"
+  },
+  "restart": {
+    "message": "Alusta uuesti"
+  },
+  "settings": {
+    "message": "Seaded"
+  },
+  "language": {
+    "message": "Keel"
+  },
+  "sound": {
+    "message": "Heli"
+  },
+  "reducedMotion": {
+    "message": "Vähendatud liikumine"
+  },
+  "done": {
+    "message": "Valmis"
+  },
+  "settingsAria": {
+    "message": "Ava seaded"
+  },
+  "closeAria": {
+    "message": "Sulge seaded"
+  },
+  "restartAria": {
+    "message": "Alusta mängu uuesti"
+  },
+  "gameAria": {
+    "message": "Perfect Stack mäng. Ploki kukutamiseks kasuta tühikut, Enterit, klõpsu või puudutust."
+  },
+  "perfect": {
+    "message": "TÄIUSLIK"
+  },
+  "great": {
+    "message": "SUUREPÄRANE"
+  },
+  "good": {
+    "message": "HEA"
+  },
+  "miss": {
+    "message": "MÖÖDA"
+  },
+  "gameOver": {
+    "message": "Voor lõppes — taasalustamiseks klõpsa või vajuta tühikut"
+  },
+  "donate": {
+    "message": "Anneta"
+  },
+  "version": {
+    "message": "Versioon 1.0.0"
+  },
+  "pause": {
+    "message": "Peata"
+  },
+  "resume": {
+    "message": "Jätka"
+  },
+  "paused": {
+    "message": "Peatatud"
+  }
+}

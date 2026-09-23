@@ -1,0 +1,92 @@
+{
+  "appTag": {
+    "message": "精准街机"
+  },
+  "title": {
+    "message": "完美堆叠"
+  },
+  "score": {
+    "message": "得分"
+  },
+  "height": {
+    "message": "高度"
+  },
+  "combo": {
+    "message": "连击"
+  },
+  "bestScore": {
+    "message": "最高得分"
+  },
+  "highestTower": {
+    "message": "最高塔"
+  },
+  "bestPerfectStreak": {
+    "message": "最高完美连击"
+  },
+  "tapToStart": {
+    "message": "点击或按空格键开始"
+  },
+  "controlsHint": {
+    "message": "点击 · 轻触 · 空格键 · Enter"
+  },
+  "restart": {
+    "message": "重新开始"
+  },
+  "settings": {
+    "message": "设置"
+  },
+  "language": {
+    "message": "语言"
+  },
+  "sound": {
+    "message": "声音"
+  },
+  "reducedMotion": {
+    "message": "减少动画"
+  },
+  "done": {
+    "message": "完成"
+  },
+  "settingsAria": {
+    "message": "打开设置"
+  },
+  "closeAria": {
+    "message": "关闭设置"
+  },
+  "restartAria": {
+    "message": "重新开始游戏"
+  },
+  "gameAria": {
+    "message": "Perfect Stack 游戏。使用空格键、Enter、点击或轻触放下方块。"
+  },
+  "perfect": {
+    "message": "完美"
+  },
+  "great": {
+    "message": "很棒"
+  },
+  "good": {
+    "message": "不错"
+  },
+  "miss": {
+    "message": "失误"
+  },
+  "gameOver": {
+    "message": "本轮完成 — 点击或按空格键重新开始"
+  },
+  "donate": {
+    "message": "捐赠"
+  },
+  "version": {
+    "message": "版本 1.0.0"
+  },
+  "pause": {
+    "message": "暂停"
+  },
+  "resume": {
+    "message": "继续"
+  },
+  "paused": {
+    "message": "已暂停"
+  }
+}

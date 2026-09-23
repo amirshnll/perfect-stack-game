@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="css/src/popup.css">
+    <title>Perfect Stack</title>
+</head>
+
+<body>
+    <main class="app">
+        <header>
+            <div>
+                <p class="eyebrow" data-i18n="appTag"></p>
+                <h1 data-i18n="title"></h1>
+            </div><button id="settingsButton" class="icon-button" data-i18n-aria="settingsAria"
+                aria-haspopup="dialog">⚙</button>
+        </header>
+        <section class="stats" aria-label="Game statistics">
+            <div><span data-i18n="score"></span><strong id="score">0</strong></div>
+            <div><span data-i18n="height"></span><strong id="height">0</strong></div>
+            <div><span data-i18n="combo"></span><strong id="combo">0</strong></div>
+        </section>
+        <div class="game-shell"><canvas id="game" aria-label=""></canvas>
+            <div id="feedback" class="feedback" aria-live="polite"></div>
+            <div id="startOverlay" class="overlay"><strong data-i18n="tapToStart"></strong><span
+                    data-i18n="controlsHint"></span></div>
+        </div>
+        <section class="records">
+            <div><span data-i18n="bestScore"></span><strong id="bestScore">0</strong></div>
+            <div><span data-i18n="highestTower"></span><strong id="bestHeight">0</strong></div>
+            <div><span data-i18n="bestPerfectStreak"></span><strong id="bestPerfect">0</strong></div>
+        </section><button id="pause" class="pause hidden" data-i18n="pause" type="button"></button><button id="restart"
+            class="restart" data-i18n="restart" data-i18n-aria="restartAria"></button>
+        <div class="extension-meta"><a href="https://ashokri.com/donate/" target="_blank" rel="noopener noreferrer"
+                data-i18n="donate">Donate</a><span aria-hidden="true">-</span><span data-i18n="version">Version
+                1.0.0</span></div>
+    </main>
+    <dialog id="settings">
+        <form method="dialog">
+            <div class="dialog-title">
+                <h2 data-i18n="settings"></h2><button class="icon-button" value="cancel"
+                    data-i18n-aria="closeAria">×</button>
+            </div><label><span data-i18n="language"></span><select id="language"></select></label><label
+                class="switch"><span data-i18n="sound"></span><input id="sound" type="checkbox"><i></i></label><label
+                class="switch"><span data-i18n="reducedMotion"></span><input id="motion"
+                    type="checkbox"><i></i></label><button value="confirm" class="done" data-i18n="done"></button>
+        </form>
+    </dialog>
+    <script type="module" src="js/src/game.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+{
+  "appTag": {
+    "message": "آرکید دقت"
+  },
+  "title": {
+    "message": "برج بی‌نقص"
+  },
+  "score": {
+    "message": "امتیاز"
+  },
+  "height": {
+    "message": "ارتفاع"
+  },
+  "combo": {
+    "message": "کمبو"
+  },
+  "bestScore": {
+    "message": "بهترین امتیاز"
+  },
+  "highestTower": {
+    "message": "بیشترین ارتفاع"
+  },
+  "bestPerfectStreak": {
+    "message": "بهترین ردیف عالی"
+  },
+  "tapToStart": {
+    "message": "برای شروع کلیک کنید یا فاصله بزنید"
+  },
+  "controlsHint": {
+    "message": "کلیک · لمس · فاصله · اینتر"
+  },
+  "restart": {
+    "message": "شروع دوباره"
+  },
+  "settings": {
+    "message": "تنظیمات"
+  },
+  "language": {
+    "message": "زبان"
+  },
+  "sound": {
+    "message": "صدا"
+  },
+  "reducedMotion": {
+    "message": "کاهش حرکت"
+  },
+  "done": {
+    "message": "تأیید"
+  },
+  "settingsAria": {
+    "message": "باز کردن تنظیمات"
+  },
+  "closeAria": {
+    "message": "بستن"
+  },
+  "restartAria": {
+    "message": "شروع دوباره بازی"
+  },
+  "gameAria": {
+    "message": "بازی Perfect Stack."
+  },
+  "perfect": {
+    "message": "عالی"
+  },
+  "great": {
+    "message": "بسیار خوب"
+  },
+  "good": {
+    "message": "خوب"
+  },
+  "miss": {
+    "message": "خطا"
+  },
+  "gameOver": {
+    "message": "بازی تمام شد — برای شروع دوباره فاصله بزنید"
+  },
+  "donate": {
+    "message": "حمایت مالی"
+  },
+  "version": {
+    "message": "نسخه ۱.۰.۰"
+  },
+  "pause": {
+    "message": "توقف"
+  },
+  "resume": {
+    "message": "ادامه"
+  },
+  "paused": {
+    "message": "متوقف شد"
+  }
+}

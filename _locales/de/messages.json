@@ -1,0 +1,92 @@
+{
+  "appTag": {
+    "message": "PRÄZISIONS-ARCADE"
+  },
+  "title": {
+    "message": "Perfekter Turm"
+  },
+  "score": {
+    "message": "Punkte"
+  },
+  "height": {
+    "message": "Höhe"
+  },
+  "combo": {
+    "message": "Combo"
+  },
+  "bestScore": {
+    "message": "Bestwert"
+  },
+  "highestTower": {
+    "message": "Höchster Turm"
+  },
+  "bestPerfectStreak": {
+    "message": "Beste perfekte Serie"
+  },
+  "tapToStart": {
+    "message": "Klicken oder Leertaste drücken"
+  },
+  "controlsHint": {
+    "message": "Klick · Tippen · Leertaste · Eingabe"
+  },
+  "restart": {
+    "message": "Neu starten"
+  },
+  "settings": {
+    "message": "Einstellungen"
+  },
+  "language": {
+    "message": "Sprache"
+  },
+  "sound": {
+    "message": "Ton"
+  },
+  "reducedMotion": {
+    "message": "Bewegung reduzieren"
+  },
+  "done": {
+    "message": "Fertig"
+  },
+  "settingsAria": {
+    "message": "Einstellungen öffnen"
+  },
+  "closeAria": {
+    "message": "Schließen"
+  },
+  "restartAria": {
+    "message": "Spiel neu starten"
+  },
+  "gameAria": {
+    "message": "Perfect Stack Spiel."
+  },
+  "perfect": {
+    "message": "PERFEKT"
+  },
+  "great": {
+    "message": "GROSSARTIG"
+  },
+  "good": {
+    "message": "GUT"
+  },
+  "miss": {
+    "message": "VERFEHLT"
+  },
+  "gameOver": {
+    "message": "Runde beendet — Leertaste zum Neustart"
+  },
+  "donate": {
+    "message": "Spenden"
+  },
+  "version": {
+    "message": "Version 1.0.0"
+  },
+  "pause": {
+    "message": "Pausieren"
+  },
+  "resume": {
+    "message": "Fortsetzen"
+  },
+  "paused": {
+    "message": "Pausiert"
+  }
+}

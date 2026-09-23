@@ -1,0 +1,92 @@
+{
+  "appTag": {
+    "message": "PRECISIONSARCADE"
+  },
+  "title": {
+    "message": "Perfekt torn"
+  },
+  "score": {
+    "message": "Poäng"
+  },
+  "height": {
+    "message": "Höjd"
+  },
+  "combo": {
+    "message": "Kombination"
+  },
+  "bestScore": {
+    "message": "Bästa poäng"
+  },
+  "highestTower": {
+    "message": "Högsta tornet"
+  },
+  "bestPerfectStreak": {
+    "message": "Bästa perfekta svit"
+  },
+  "tapToStart": {
+    "message": "Klicka eller tryck på Blanksteg för att börja"
+  },
+  "controlsHint": {
+    "message": "Klick · Tryck · Blanksteg · Enter"
+  },
+  "restart": {
+    "message": "Starta om"
+  },
+  "settings": {
+    "message": "Inställningar"
+  },
+  "language": {
+    "message": "Språk"
+  },
+  "sound": {
+    "message": "Ljud"
+  },
+  "reducedMotion": {
+    "message": "Minskad rörelse"
+  },
+  "done": {
+    "message": "Klar"
+  },
+  "settingsAria": {
+    "message": "Öppna inställningar"
+  },
+  "closeAria": {
+    "message": "Stäng inställningar"
+  },
+  "restartAria": {
+    "message": "Starta om spelet"
+  },
+  "gameAria": {
+    "message": "Perfect Stack-spel. Använd Blanksteg, Enter, klick eller tryck för att släppa ett block."
+  },
+  "perfect": {
+    "message": "PERFEKT"
+  },
+  "great": {
+    "message": "TOPPEN"
+  },
+  "good": {
+    "message": "BRA"
+  },
+  "miss": {
+    "message": "MISS"
+  },
+  "gameOver": {
+    "message": "Omgången klar — klicka eller tryck på Blanksteg för att starta om"
+  },
+  "donate": {
+    "message": "Donera"
+  },
+  "version": {
+    "message": "Version 1.0.0"
+  },
+  "pause": {
+    "message": "Pausa"
+  },
+  "resume": {
+    "message": "Fortsätt"
+  },
+  "paused": {
+    "message": "Pausad"
+  }
+}

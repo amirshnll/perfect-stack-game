@@ -1,0 +1,92 @@
+{
+  "appTag": {
+    "message": "أركيد الدقة"
+  },
+  "title": {
+    "message": "البرج المثالي"
+  },
+  "score": {
+    "message": "النقاط"
+  },
+  "height": {
+    "message": "الارتفاع"
+  },
+  "combo": {
+    "message": "التركيبة"
+  },
+  "bestScore": {
+    "message": "أفضل نقاط"
+  },
+  "highestTower": {
+    "message": "أعلى برج"
+  },
+  "bestPerfectStreak": {
+    "message": "أفضل سلسلة مثالية"
+  },
+  "tapToStart": {
+    "message": "انقر أو اضغط مسافة للبدء"
+  },
+  "controlsHint": {
+    "message": "نقرة · لمس · مسافة · إدخال"
+  },
+  "restart": {
+    "message": "إعادة البدء"
+  },
+  "settings": {
+    "message": "الإعدادات"
+  },
+  "language": {
+    "message": "اللغة"
+  },
+  "sound": {
+    "message": "الصوت"
+  },
+  "reducedMotion": {
+    "message": "تقليل الحركة"
+  },
+  "done": {
+    "message": "تم"
+  },
+  "settingsAria": {
+    "message": "فتح الإعدادات"
+  },
+  "closeAria": {
+    "message": "إغلاق"
+  },
+  "restartAria": {
+    "message": "إعادة اللعبة"
+  },
+  "gameAria": {
+    "message": "لعبة Perfect Stack."
+  },
+  "perfect": {
+    "message": "مثالي"
+  },
+  "great": {
+    "message": "رائع"
+  },
+  "good": {
+    "message": "جيد"
+  },
+  "miss": {
+    "message": "فشل"
+  },
+  "gameOver": {
+    "message": "انتهت الجولة — اضغط مسافة لإعادة البدء"
+  },
+  "donate": {
+    "message": "تبرّع"
+  },
+  "version": {
+    "message": "الإصدار ١.٠.٠"
+  },
+  "pause": {
+    "message": "إيقاف مؤقت"
+  },
+  "resume": {
+    "message": "استئناف"
+  },
+  "paused": {
+    "message": "متوقف مؤقتًا"
+  }
+}

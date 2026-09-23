@@ -1,0 +1,92 @@
+{
+  "appTag": {
+    "message": "精密アーケード"
+  },
+  "title": {
+    "message": "パーフェクトスタック"
+  },
+  "score": {
+    "message": "スコア"
+  },
+  "height": {
+    "message": "高さ"
+  },
+  "combo": {
+    "message": "コンボ"
+  },
+  "bestScore": {
+    "message": "最高スコア"
+  },
+  "highestTower": {
+    "message": "最高のタワー"
+  },
+  "bestPerfectStreak": {
+    "message": "最高パーフェクト連続記録"
+  },
+  "tapToStart": {
+    "message": "クリックまたは Space で開始"
+  },
+  "controlsHint": {
+    "message": "クリック · タップ · Space · Enter"
+  },
+  "restart": {
+    "message": "リスタート"
+  },
+  "settings": {
+    "message": "設定"
+  },
+  "language": {
+    "message": "言語"
+  },
+  "sound": {
+    "message": "サウンド"
+  },
+  "reducedMotion": {
+    "message": "動きを減らす"
+  },
+  "done": {
+    "message": "完了"
+  },
+  "settingsAria": {
+    "message": "設定を開く"
+  },
+  "closeAria": {
+    "message": "設定を閉じる"
+  },
+  "restartAria": {
+    "message": "ゲームを再開する"
+  },
+  "gameAria": {
+    "message": "Perfect Stack ゲーム。Space、Enter、クリック、タップでブロックを落とします。"
+  },
+  "perfect": {
+    "message": "パーフェクト"
+  },
+  "great": {
+    "message": "グレート"
+  },
+  "good": {
+    "message": "グッド"
+  },
+  "miss": {
+    "message": "ミス"
+  },
+  "gameOver": {
+    "message": "ラウンド完了 — クリックまたは Space で再開"
+  },
+  "donate": {
+    "message": "寄付"
+  },
+  "version": {
+    "message": "バージョン 1.0.0"
+  },
+  "pause": {
+    "message": "一時停止"
+  },
+  "resume": {
+    "message": "再開"
+  },
+  "paused": {
+    "message": "一時停止中"
+  }
+}

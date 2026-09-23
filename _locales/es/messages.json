@@ -1,0 +1,92 @@
+{
+  "appTag": {
+    "message": "ARCADE DE PRECISIÓN"
+  },
+  "title": {
+    "message": "Torre perfecta"
+  },
+  "score": {
+    "message": "Puntos"
+  },
+  "height": {
+    "message": "Altura"
+  },
+  "combo": {
+    "message": "Combo"
+  },
+  "bestScore": {
+    "message": "Mejor puntuación"
+  },
+  "highestTower": {
+    "message": "Torre más alta"
+  },
+  "bestPerfectStreak": {
+    "message": "Mejor racha perfecta"
+  },
+  "tapToStart": {
+    "message": "Haz clic o pulsa Espacio para empezar"
+  },
+  "controlsHint": {
+    "message": "Clic · Toque · Espacio · Intro"
+  },
+  "restart": {
+    "message": "Reiniciar"
+  },
+  "settings": {
+    "message": "Ajustes"
+  },
+  "language": {
+    "message": "Idioma"
+  },
+  "sound": {
+    "message": "Sonido"
+  },
+  "reducedMotion": {
+    "message": "Reducir movimiento"
+  },
+  "done": {
+    "message": "Listo"
+  },
+  "settingsAria": {
+    "message": "Abrir ajustes"
+  },
+  "closeAria": {
+    "message": "Cerrar ajustes"
+  },
+  "restartAria": {
+    "message": "Reiniciar juego"
+  },
+  "gameAria": {
+    "message": "Juego Perfect Stack."
+  },
+  "perfect": {
+    "message": "PERFECTO"
+  },
+  "great": {
+    "message": "GENIAL"
+  },
+  "good": {
+    "message": "BIEN"
+  },
+  "miss": {
+    "message": "FALLO"
+  },
+  "gameOver": {
+    "message": "Partida terminada — pulsa Espacio para reiniciar"
+  },
+  "donate": {
+    "message": "Donar"
+  },
+  "version": {
+    "message": "Versión 1.0.0"
+  },
+  "pause": {
+    "message": "Pausar"
+  },
+  "resume": {
+    "message": "Reanudar"
+  },
+  "paused": {
+    "message": "En pausa"
+  }
+}

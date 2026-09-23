@@ -1,0 +1,92 @@
+{
+  "appTag": {
+    "message": "ARCADE DI PRECISIONE"
+  },
+  "title": {
+    "message": "Torre perfetta"
+  },
+  "score": {
+    "message": "Punteggio"
+  },
+  "height": {
+    "message": "Altezza"
+  },
+  "combo": {
+    "message": "Combo"
+  },
+  "bestScore": {
+    "message": "Miglior punteggio"
+  },
+  "highestTower": {
+    "message": "Torre più alta"
+  },
+  "bestPerfectStreak": {
+    "message": "Migliore serie perfetta"
+  },
+  "tapToStart": {
+    "message": "Fai clic o premi Spazio per iniziare"
+  },
+  "controlsHint": {
+    "message": "Clic · Tocco · Spazio · Invio"
+  },
+  "restart": {
+    "message": "Ricomincia"
+  },
+  "settings": {
+    "message": "Impostazioni"
+  },
+  "language": {
+    "message": "Lingua"
+  },
+  "sound": {
+    "message": "Suono"
+  },
+  "reducedMotion": {
+    "message": "Movimento ridotto"
+  },
+  "done": {
+    "message": "Fatto"
+  },
+  "settingsAria": {
+    "message": "Apri impostazioni"
+  },
+  "closeAria": {
+    "message": "Chiudi impostazioni"
+  },
+  "restartAria": {
+    "message": "Ricomincia il gioco"
+  },
+  "gameAria": {
+    "message": "Gioco Perfect Stack. Usa Spazio, Invio, clic o tocco per rilasciare un blocco."
+  },
+  "perfect": {
+    "message": "PERFETTO"
+  },
+  "great": {
+    "message": "OTTIMO"
+  },
+  "good": {
+    "message": "BENE"
+  },
+  "miss": {
+    "message": "MANCATO"
+  },
+  "gameOver": {
+    "message": "Round completato — fai clic o premi Spazio per ricominciare"
+  },
+  "donate": {
+    "message": "Dona"
+  },
+  "version": {
+    "message": "Versione 1.0.0"
+  },
+  "pause": {
+    "message": "Pausa"
+  },
+  "resume": {
+    "message": "Riprendi"
+  },
+  "paused": {
+    "message": "In pausa"
+  }
+}

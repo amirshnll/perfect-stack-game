@@ -1,0 +1,92 @@
+{
+  "appTag": {
+    "message": "PRECISION ARCADE"
+  },
+  "title": {
+    "message": "Perfect Stack"
+  },
+  "score": {
+    "message": "Score"
+  },
+  "height": {
+    "message": "Height"
+  },
+  "combo": {
+    "message": "Combo"
+  },
+  "bestScore": {
+    "message": "Best score"
+  },
+  "highestTower": {
+    "message": "Highest tower"
+  },
+  "bestPerfectStreak": {
+    "message": "Best perfect streak"
+  },
+  "tapToStart": {
+    "message": "Click or press Space to start"
+  },
+  "controlsHint": {
+    "message": "Click · Tap · Space · Enter"
+  },
+  "restart": {
+    "message": "Restart run"
+  },
+  "settings": {
+    "message": "Settings"
+  },
+  "language": {
+    "message": "Language"
+  },
+  "sound": {
+    "message": "Sound"
+  },
+  "reducedMotion": {
+    "message": "Reduced motion"
+  },
+  "done": {
+    "message": "Done"
+  },
+  "settingsAria": {
+    "message": "Open settings"
+  },
+  "closeAria": {
+    "message": "Close settings"
+  },
+  "restartAria": {
+    "message": "Restart game"
+  },
+  "gameAria": {
+    "message": "Perfect Stack game. Use Space, Enter, click, or tap to drop a block."
+  },
+  "perfect": {
+    "message": "PERFECT"
+  },
+  "great": {
+    "message": "GREAT"
+  },
+  "good": {
+    "message": "GOOD"
+  },
+  "miss": {
+    "message": "MISS"
+  },
+  "gameOver": {
+    "message": "Run complete — click or press Space to restart"
+  },
+  "donate": {
+    "message": "Donate"
+  },
+  "version": {
+    "message": "Version 1.0.0"
+  },
+  "pause": {
+    "message": "Pause"
+  },
+  "resume": {
+    "message": "Resume"
+  },
+  "paused": {
+    "message": "Paused"
+  }
+}

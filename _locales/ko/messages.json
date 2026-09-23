@@ -1,0 +1,92 @@
+{
+  "appTag": {
+    "message": "정밀 아케이드"
+  },
+  "title": {
+    "message": "퍼펙트 스택"
+  },
+  "score": {
+    "message": "점수"
+  },
+  "height": {
+    "message": "높이"
+  },
+  "combo": {
+    "message": "콤보"
+  },
+  "bestScore": {
+    "message": "최고 점수"
+  },
+  "highestTower": {
+    "message": "최고 타워"
+  },
+  "bestPerfectStreak": {
+    "message": "최고 완벽 연속 기록"
+  },
+  "tapToStart": {
+    "message": "클릭하거나 Space를 눌러 시작"
+  },
+  "controlsHint": {
+    "message": "클릭 · 탭 · Space · Enter"
+  },
+  "restart": {
+    "message": "다시 시작"
+  },
+  "settings": {
+    "message": "설정"
+  },
+  "language": {
+    "message": "언어"
+  },
+  "sound": {
+    "message": "소리"
+  },
+  "reducedMotion": {
+    "message": "동작 줄이기"
+  },
+  "done": {
+    "message": "완료"
+  },
+  "settingsAria": {
+    "message": "설정 열기"
+  },
+  "closeAria": {
+    "message": "설정 닫기"
+  },
+  "restartAria": {
+    "message": "게임 다시 시작"
+  },
+  "gameAria": {
+    "message": "Perfect Stack 게임입니다. Space, Enter, 클릭 또는 탭으로 블록을 떨어뜨리세요."
+  },
+  "perfect": {
+    "message": "완벽"
+  },
+  "great": {
+    "message": "대단함"
+  },
+  "good": {
+    "message": "좋음"
+  },
+  "miss": {
+    "message": "실패"
+  },
+  "gameOver": {
+    "message": "라운드 완료 — 클릭하거나 Space를 눌러 다시 시작"
+  },
+  "donate": {
+    "message": "후원"
+  },
+  "version": {
+    "message": "버전 1.0.0"
+  },
+  "pause": {
+    "message": "일시정지"
+  },
+  "resume": {
+    "message": "계속"
+  },
+  "paused": {
+    "message": "일시정지됨"
+  }
+}

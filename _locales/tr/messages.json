@@ -1,0 +1,92 @@
+{
+  "appTag": {
+    "message": "HASSAS ARCADE"
+  },
+  "title": {
+    "message": "Mükemmel Kule"
+  },
+  "score": {
+    "message": "Puan"
+  },
+  "height": {
+    "message": "Yükseklik"
+  },
+  "combo": {
+    "message": "Kombinasyon"
+  },
+  "bestScore": {
+    "message": "En iyi puan"
+  },
+  "highestTower": {
+    "message": "En yüksek kule"
+  },
+  "bestPerfectStreak": {
+    "message": "En iyi mükemmel seri"
+  },
+  "tapToStart": {
+    "message": "Başlamak için tıklayın veya Boşluk'a basın"
+  },
+  "controlsHint": {
+    "message": "Tıkla · Dokun · Boşluk · Enter"
+  },
+  "restart": {
+    "message": "Yeniden başlat"
+  },
+  "settings": {
+    "message": "Ayarlar"
+  },
+  "language": {
+    "message": "Dil"
+  },
+  "sound": {
+    "message": "Ses"
+  },
+  "reducedMotion": {
+    "message": "Hareketi azalt"
+  },
+  "done": {
+    "message": "Tamam"
+  },
+  "settingsAria": {
+    "message": "Ayarları aç"
+  },
+  "closeAria": {
+    "message": "Kapat"
+  },
+  "restartAria": {
+    "message": "Oyunu yeniden başlat"
+  },
+  "gameAria": {
+    "message": "Perfect Stack oyunu."
+  },
+  "perfect": {
+    "message": "MÜKEMMEL"
+  },
+  "great": {
+    "message": "HARİKA"
+  },
+  "good": {
+    "message": "İYİ"
+  },
+  "miss": {
+    "message": "ISKA"
+  },
+  "gameOver": {
+    "message": "Tur bitti — yeniden başlatmak için Boşluk"
+  },
+  "donate": {
+    "message": "Bağış yap"
+  },
+  "version": {
+    "message": "Sürüm 1.0.0"
+  },
+  "pause": {
+    "message": "Duraklat"
+  },
+  "resume": {
+    "message": "Devam et"
+  },
+  "paused": {
+    "message": "Duraklatıldı"
+  }
+}
