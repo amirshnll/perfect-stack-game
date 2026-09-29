@@ -12,6 +12,10 @@ Perfect Stack is a lightweight, multilingual tower-stacking game for the browser
 
 The extension offers a quick precision and timing challenge that is easy to play from the browser toolbar and encourages users to improve their consistency and high score.
 
+## Download
+
+[Chrome](https://chromewebstore.google.com/detail/perfect-stack/nkiikennfmfollmpfohaeoeofajponoo) - [Firefox](https://addons.mozilla.org/firefox/addon/perfect-stack/)
+
 ## License
 
 Perfect Stack is licensed under the MIT License. See the `LICENSE` file for the full license text.
